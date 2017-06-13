@@ -7,7 +7,7 @@
 +   push(推送)
 +   pull(拉取)
 ##  使用 Git 时文件的生命周期
-![git live]()
+![git live](https://github.com/Tinywan/github-study/blob/master/image/Figure2-1.png)
 ##  工作目录
 +   作目录下的每一个文件都不外乎这两种状态：
     +   已跟踪 :已跟踪的文件是指那些被纳入了版本控制的文件，在上一次快照中有它们的记录，在工作一段时间后，它们的状态可能处于未修改，已修改或已放入暂存区  
