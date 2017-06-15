@@ -26,3 +26,26 @@
         3.  合并时把有冲突的文件标记为已解决状态等
         4.  个命令理解为“添加内容到下一次提交中”而不是“将一个文件添加到项目中”要更加合适
     
+##  Git查看、删除、重命名远程分支和tag
++   [Git查看、删除、重命名远程分支和tag](http://zengrong.net/post/1746.htm)
++   查看远程分支
+    ```bash 
+    $ git branch -a
+      master
+      remote
+      tungway
+      v1.52
+    * zrong
+      remotes/origin/master
+      remotes/origin/tungway
+      remotes/origin/v1.52
+      remotes/origin/zrong
+    ```
++   删除远程分支和tag
+    +   删除远程分支：`git push origin --delete <branchName>`
+    +   删除tag：`git push origin --delete tag <tagname>`
+    +   重命名本地分支：`git branch -m devel develop`
++   推送本地分支：`git push origin develop`    
+    
+##  标签管理
+    
