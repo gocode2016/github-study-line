@@ -43,9 +43,20 @@
     ```
 +   删除远程分支和tag
     +   删除远程分支：`git push origin --delete <branchName>`
-    +   删除tag：`git push origin --delete tag <tagname>`
     +   重命名本地分支：`git branch -m devel develop`
 +   推送本地分支：`git push origin develop`    
++   tag 管理
+    +   把本地tag推送到远程
+        +   推送单个tag到远程 
+            +   命令格式为：`git push origin [tagname]`
+            +   `git push origin v1.0` 将本地v1.0的tag推送到远端服务器
+        +   推送所有tag到远程 
+            +   命令格式为：`git push [origin] --tags`
+            +   `git push --tags` 或者`git push origin --tags`
+    +   删除远程tag：`git push origin --delete tag <tagname>`        
+    
+
+
     
 ##  标签管理
     
