@@ -60,7 +60,8 @@
         +   推送所有tag到远程 
             +   命令格式为：`git push [origin] --tags`
             +   `git push --tags` 或者`git push origin --tags`
-    +   删除远程tag：`git push origin --delete tag <tagname>`        
+    +   删除远程tag：`git push origin --delete tag <tagname>` 
++    [合并远程分支](http://www.tuicool.com/articles/JzAv6z)          
 ##  三种合并方式及特点
 +   ![git live](https://github.com/Tinywan/github-study/blob/master/image/merge_method.png)    
 +   合并分支的三种方式，分别是 `Create a merge commit`，`Squash and merge` 和 `Rebase and merge`
