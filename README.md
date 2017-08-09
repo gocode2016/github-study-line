@@ -1,4 +1,13 @@
-##  my Project
+##  Github的工作原理
++  ![git live](https://github.com/Tinywan/github-study/blob/master/image/git-workflow-release.png)
++  如图所示，这是一张Github的工作原理图，每一种色彩的分别代表着不同的分支。从下往上看：
+    +  **蓝色** 表示功能分支，负责开发某一功能的工作流。
+    +  橙色 表示功能总汇分支，他里面是所有功能的汇总。
+    +  黄色 表示测试分支，用于产品内测。
+    +  绿色 表示发布分支，只用于发布产品，对外展示。
+    +  紫色 表示bug修复分支，它是指已经发布的产品发现有bug时进行修复的分支。
+##  使用 Git 时文件的生命周期
++  ![git live](https://github.com/Tinywan/github-study/blob/master/image/Figure2-1.png)
 +   init(初始化)
 +   repository(仓库)
 +   track(开始或者停止跟踪)：`git add `命令来实现对指定文件的跟踪
@@ -6,8 +15,6 @@
 +   commit(提交)
 +   push(推送)
 +   pull(拉取)
-##  使用 Git 时文件的生命周期
-![git live](https://github.com/Tinywan/github-study/blob/master/image/Figure2-1.png)
 ##  工作目录
 +   作目录下的每一个文件都不外乎这两种状态：
     +   已跟踪 :已跟踪的文件是指那些被纳入了版本控制的文件，在上一次快照中有它们的记录，在工作一段时间后，它们的状态可能处于未修改，已修改或已放入暂存区  
@@ -54,9 +61,17 @@
             +   命令格式为：`git push [origin] --tags`
             +   `git push --tags` 或者`git push origin --tags`
     +   删除远程tag：`git push origin --delete tag <tagname>`        
-    
-
-
-    
-##  标签管理
-    
+##  三种合并方式及特点
++   ![git live](https://github.com/Tinywan/github-study/blob/master/image/merge_method.png)    
++   合并分支的三种方式，分别是 `Create a merge commit`，`Squash and merge` 和 `Rebase and merge`
++   方式一：`Create a merge commit.`
+    +   ![git live](https://github.com/Tinywan/github-study/blob/master/image/Create_merge_commit.jpg)
+    +   它是最完整的一种合并方式。这种方式合并时不仅保留了所有的提交版本，还保留了所有的修改轨迹
++   方式二：`Squash and merge.`,如图所示，这种方式是最不完整的合并方式，既不保留历史版本，也不保留修改轨迹。
+    +   ![git live](https://github.com/Tinywan/github-study/blob/master/image/Squash_and_merge.jpg)
+    +   这种方式是最不完整的合并方式，既不保留历史版本，也不保留修改轨迹。这种方式的好处是对于纯文字编辑者在修改错别字、病句等非关键性语句时，为简洁方便，推送时可以直接忽略版本和轨迹。
++   方式三：`Rebase and merge`.
+    +   ![git live](https://github.com/Tinywan/github-study/blob/master/image/Rebase_and_merge.jpg)
+    +   这种方式是前两者的中间值，它保留了提交版本，却不保留各版本的修改轨迹
++   至于到底选择哪种方式，这就要看你所做的事情对历史版本和修改轨迹的需求啦~    
++   fork的对象是仓库的全部内容，而 pull resquest的对象是各分支    
