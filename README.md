@@ -8,13 +8,18 @@
     +  **紫色** 表示bug修复分支，它是指已经发布的产品发现有bug时进行修复的分支。
 ##  使用 Git 时文件的生命周期
 +  ![git live](https://github.com/Tinywan/github-study/blob/master/image/Figure2-1.png)
-+   init(初始化)
-+   repository(仓库)
-+   track(开始或者停止跟踪)：`git add `命令来实现对指定文件的跟踪
-+   stage(暂存)
-+   commit(提交)
-+   push(推送)
-+   pull(拉取)
++   `git init`：初始化
++   `repository`：仓库
++   `track`：开始或者停止跟踪，`git add `命令来实现对指定文件的跟踪
++   `stage`：暂存
++   `commit`：提交
++   `push`：推送
++   `pull`：拉取
+##  常用命令一览表
++   `git init`：初始化一个Git仓库
++   `git add <file>`：添加多个文件到仓库
++   `git commit`：完成仓库添加
++   `git status`：仓库当前的状态
 ##  工作目录
 +   作目录下的每一个文件都不外乎这两种状态：
     +   已跟踪 :已跟踪的文件是指那些被纳入了版本控制的文件，在上一次快照中有它们的记录，在工作一段时间后，它们的状态可能处于未修改，已修改或已放入暂存区  
