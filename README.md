@@ -2,10 +2,10 @@
 +  ![git live](https://github.com/Tinywan/github-study/blob/master/image/git-workflow-release.png)
 +  如图所示，这是一张Github的工作原理图，每一种色彩的分别代表着不同的分支。从下往上看：
     +  **蓝色** 表示功能分支，负责开发某一功能的工作流。
-    +  橙色 表示功能总汇分支，他里面是所有功能的汇总。
-    +  黄色 表示测试分支，用于产品内测。
-    +  绿色 表示发布分支，只用于发布产品，对外展示。
-    +  紫色 表示bug修复分支，它是指已经发布的产品发现有bug时进行修复的分支。
+    +  **橙色** 表示功能总汇分支，他里面是所有功能的汇总。
+    +  **黄色** 表示测试分支，用于产品内测。
+    +  **绿色** 表示发布分支，只用于发布产品，对外展示。
+    +  **紫色** 表示bug修复分支，它是指已经发布的产品发现有bug时进行修复的分支。
 ##  使用 Git 时文件的生命周期
 +  ![git live](https://github.com/Tinywan/github-study/blob/master/image/Figure2-1.png)
 +   init(初始化)
