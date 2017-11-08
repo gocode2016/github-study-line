@@ -1,3 +1,5 @@
+##  知识点
++   [如何同步一个 Fork](https://gaohaoyang.github.io/2015/04/12/Syncing-a-fork/)
 ##  Github的工作原理
 +  ![git live](https://github.com/Tinywan/github-study/blob/master/image/git-workflow-release.png)
 +  如图所示，这是一张Github的工作原理图，每一种色彩的分别代表着不同的分支。从下往上看：
