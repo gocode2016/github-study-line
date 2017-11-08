@@ -39,7 +39,7 @@
 ### Syncing a fork
 
 * 从上游仓库 fetch 分支和提交点，传送到本地，并会被存储在一个本地分支 upstream/master   
-    `git fetch upstream`    
+    > `git fetch upstream`     
     
     ```
     git fetch upstream
@@ -51,9 +51,8 @@
     #  * [new branch]      master     -> upstream/master
     ```
 
-* 切换到本地主分支(如果不在的话)    
-
-    `git checkout master`    
+* 切换到本地主分支(如果不在的话) 
+  > `git checkout master`    
     
     ```
     git checkout master
@@ -61,7 +60,7 @@
     ```
 * 把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容。  
   
-    `git merge upstream/master`      
+    > `git merge upstream/master`      
     
     ```
     git merge upstream/master
